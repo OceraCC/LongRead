@@ -1,0 +1,62 @@
+/home/inf-54-2023/bin/quast-5.2.0/quast.py p_ctg.fasta
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-6.7.4-100.fc38.x86_64-x86_64-with-glibc2.37 (linux_64)
+  Python version: 3.11.7
+  CPUs number: 16
+
+Started: 2024-02-21 13:56:24
+
+Logging to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /home/inf-54-2023/LongRead
+Main parameters: 
+  MODE: default, threads: 4, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  p_ctg.fasta ==> p_ctg
+
+2024-02-21 13:56:24
+Running Basic statistics processor...
+  Contig files: 
+    p_ctg
+  Calculating N50 and L50...
+    p_ctg, N50 = 809047, L50 = 6, auN = 820915.5, Total length = 12730920, GC % = 38.44, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/basic_stats/GC_content_plot.pdf
+  Drawing p_ctg GC content plot...
+    saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/basic_stats/p_ctg_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-02-21 13:56:25
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-02-21 13:56:25
+RESULTS:
+  Text versions of total report are saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/report.html
+  PDF version (tables and plots) is saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/report.pdf
+  Icarus (contig browser) is saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/icarus.html
+  Log is saved to /home/inf-54-2023/LongRead/quast_results/results_2024_02_21_13_56_24/quast.log
+
+Finished: 2024-02-21 13:56:25
+Elapsed time: 0:00:01.604036
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
