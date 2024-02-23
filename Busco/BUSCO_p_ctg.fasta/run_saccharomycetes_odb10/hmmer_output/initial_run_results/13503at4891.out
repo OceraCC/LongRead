@@ -1,0 +1,17 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+13503at4891_2|ptg000011l:812754-813794 -            347 13503at4891          -            277  4.4e-134  443.4   1.7   1   2  4.9e-137  4.4e-134  443.4   1.7     1   271     3   308     3   316 0.91 -
+13503at4891_2|ptg000011l:812754-813794 -            347 13503at4891          -            277  4.4e-134  443.4   1.7   2   2     0.011       9.7    2.8   2.4   253   277   313   338   307   338 0.73 -
+25172at4891_1|ptg000013l:158832-159647 -            272 13503at4891          -            277   5.2e-51  170.9   0.2   1   1     7e-54   6.3e-51  170.7   0.2     2   234     5   259     4   270 0.87 -
+18793at4891_2|ptg000006l:174559-175701 -            381 13503at4891          -            277   5.2e-20   69.2   0.1   1   1   1.1e-22   9.7e-20   68.4   0.0     4   171     4   189     2   238 0.75 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-54-2023/LongRead/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/13503at4891.hmm
+# Target file:     /home/inf-54-2023/LongRead/Busco/BUSCO_p_ctg.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/p_ctg.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-54-2023/LongRead/Busco/BUSCO_p_ctg.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/13503at4891.out --cpu 1 /home/inf-54-2023/LongRead/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/13503at4891.hmm /home/inf-54-2023/LongRead/Busco/BUSCO_p_ctg.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/p_ctg.fasta.modified.fas 
+# Current dir:     /home/inf-54-2023/LongRead/Busco
+# Date:            Wed Feb 21 14:59:28 2024
+# [ok]
